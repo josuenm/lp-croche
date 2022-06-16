@@ -76,11 +76,11 @@ body {
             img {
                 width: calc(100% + 4px);
                 transform: translateX(-2px);
-                height: 165vh;
+                height: 170vh;
 
                 @media (max-width: 991.98px) {
                     width: 300%;
-                    height: 900px;
+                    height: 1000px;
                 }
             }
         }
@@ -210,6 +210,34 @@ body {
                     @media (max-width: 991.98px) {
                         font-size: 1rem;
                         width: 100%;
+                    }
+                }
+
+                .warning {
+                    font-weight: var(--font-bold);
+                    
+                    span {
+                        font-weight: var(--font-black);
+                        color: var(--gray-25);
+                    }
+                }
+
+                .arrow-down {
+                    width: 60px;
+                    height: 60px;
+
+                    animation: arrowDown 1.4s infinite linear;
+
+                    @keyframes arrowDown {
+                        0% {
+                            transform: translateY(0);
+                        }
+                        50% {
+                            transform: translateY(-15px);
+                        }
+                        100% {
+                            transform: translateY(0);
+                        }
                     }
                 }
 
