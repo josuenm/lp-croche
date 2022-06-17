@@ -251,11 +251,6 @@ body section:nth-of-type(1) .video-container .bottom-description .warning {
   font-weight: var(--font-bold);
 }
 
-body section:nth-of-type(1) .video-container .bottom-description .warning span {
-  font-weight: var(--font-black);
-  color: var(--gray-25);
-}
-
 body section:nth-of-type(1) .video-container .bottom-description .arrow-down {
   width: 60px;
   height: 60px;
