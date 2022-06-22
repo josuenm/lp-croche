@@ -55,7 +55,12 @@ strong {
 }
 
 
-
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+}
 
 body {
     font-family: 'Poppins', sans-serif;
