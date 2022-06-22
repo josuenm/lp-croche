@@ -65,16 +65,21 @@ body {
 
     .fixed_button {
         position: fixed;
-        bottom: 0;
+        bottom: -200px;
         z-index: 99;
         width: 100%;
         padding: .5rem 1rem;
         background-color: rgba($color: #000000, $alpha: .4);
         backdrop-filter: blur(10px);
+        transition: linear .4s all;
 
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        &.active {
+            bottom: 0;
+        }
 
         .fixed_button__link {
             max-width: 350px;
