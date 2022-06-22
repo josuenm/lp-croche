@@ -82,10 +82,10 @@ body {
         }
 
         .fixed_button__link {
-            max-width: 350px;
             font-weight: var(--font-bold);
             text-transform: uppercase;
             font-size: 1.2rem;
+            line-height: 1.6rem;
             padding: .5rem 2rem;
             background: #ffa600;
             color: #eee;
@@ -95,6 +95,12 @@ body {
             transition: ease .4s all;
             &:hover {
                 filter: brightness(1.3);
+            }
+            
+            @media (max-width: 991.98px) {
+                padding: .8rem 1rem;
+                font-size: 1rem;
+                line-height: 1.4rem;
             }
         }
     }

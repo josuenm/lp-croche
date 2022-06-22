@@ -78,10 +78,10 @@ body .fixed_button.active {
 }
 
 body .fixed_button .fixed_button__link {
-  max-width: 350px;
   font-weight: var(--font-bold);
   text-transform: uppercase;
   font-size: 1.2rem;
+  line-height: 1.6rem;
   padding: .5rem 2rem;
   background: #ffa600;
   color: #eee;
@@ -94,6 +94,14 @@ body .fixed_button .fixed_button__link {
 body .fixed_button .fixed_button__link:hover {
   -webkit-filter: brightness(1.3);
           filter: brightness(1.3);
+}
+
+@media (max-width: 991.98px) {
+  body .fixed_button .fixed_button__link {
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
 }
 
 body section:nth-of-type(1) {
